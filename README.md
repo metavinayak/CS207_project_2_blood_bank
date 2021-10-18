@@ -35,13 +35,11 @@
     ```bash
     pip install -r requirements.txt
     ```
-5. Run mongo srver in localhost<br> open bin folder and double click bat file on windows and shell script in linux 
-
-6. Run Server
+5. Run Server
     ```bash
     python main.py
     ```
-7. Deactivate environment when done
+6. Deactivate environment when done
     ```
     deactivate
     ```
