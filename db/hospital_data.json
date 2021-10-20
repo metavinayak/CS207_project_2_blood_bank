@@ -1,0 +1,452 @@
+{
+    "data":[
+      [
+        "1",
+        "Blood Bank Regency Hospital<br/>Regency Hospital Ltd., A-2, Sarvoday Nagar,, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 0512 (2242201-10), 9919800743,9389476580 ,Fax: 05122213407, Email: avneeshchandra@regencyhealthcare.in",
+        "Private",
+        "<p class='text-success'>Available, B+Ve:1, O+Ve:1, A+Ve:1, AB+Ve:1</p>",
+        "2021-10-20 10:57:18",
+        "Blood Bank"
+      ],
+      [
+        "2",
+        "Blood Bank UHM District Male Hospital Kanpur Nagar<br/>UHM Hospital, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 0512-2311144,9415068049, 8707393729 ,Fax: -, Email: uhmhospitalkanpur@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 10:14:21",
+        "Blood Bank"
+      ],
+      [
+        "3",
+        "Blood bank Rama Medical College<br/>Rama Medical College Hospital & Research Centre Blood Bank, G.T. Road, Mandhna,, kanpur nagar 209217, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 8090167357,6394142921,0512-2780882-86 ,Fax: -, Email: knverma10@gmail.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 09:45:24",
+        "Blood Bank"
+      ],
+      [
+        "4",
+        "Blood Bank SPM Hospital<br/>S.P.M. Hospital Research and Trauma Centre Blood Bank, C-48, Kalyanpur,, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 9198607532,8874046666 ,Fax: -, Email: satish.jaiswal151@gmail.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 09:17:29",
+        "Blood Bank"
+      ],
+      [
+        "5",
+        "IMA Charitable Blood Bank<br/>Patkapur, Parade, Kanpur, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 8077276458 ,Fax: -, Email: imacbbkanpur@gmail.com",
+        "Charitable/Vol",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 08:56:22",
+        "Blood Bank"
+      ],
+      [
+        "6",
+        "Blood Bank LPS Institute<br/>LPS Institute of Cardiology, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 0512-2555200, 8400561100 ,Fax: -, Email: hrskanpur2018@gmail.com",
+        "Govt.",
+        "<p class='text-success'>Available, A+Ve:4, O+Ve:7, B+Ve:5</p>",
+        "2021-10-19 15:26:24",
+        "Blood Bank"
+      ],
+      [
+        "7",
+        "Naraina blood centre kanpur nagar<br/>Panki, plot no 1170,4th floor gangaganj, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 8009622644 ,Fax: -, Email: bloodbank@narainagroup.net",
+        "Private",
+        "<p class='text-success'>Available, A+Ve:1</p>",
+        "2021-10-19 09:46:25",
+        "Blood Bank"
+      ],
+      [
+        "8",
+        "MANGALA AUTHENTIC CHARITABLE BLOOD BANK<br/>147-A SAFIPUR-II RAMADEVI KANPUR NAGAR,U.P., Kanpur Nagar, Kanpur Nagar, Uttar Pradesh<br/>Phone: 9785822279,9829604601 ,Fax: -, Email: mangalabbkanpur@gmail.com",
+        "Charitable/Vol",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-14 09:41:22",
+        "Blood Bank"
+      ],
+      [
+        "9",
+        "Krishna Super Speciality Hospital Blood Bank<br/>363, Harishganj,, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 000 ,Fax: -, Email: agarwalsandeep2011@gmail.com",
+        "Private",
+        "<p class='text-success'>Available, A+Ve:1, O-Ve:2, B+Ve:2, O+Ve:1</p>",
+        "2021-09-20 17:13:23",
+        "Blood Bank"
+      ],
+      [
+        "10",
+        "SNEH PATHOLOGY X RAY BLOOD BANK AND BLOOD COMPONENT<br/>Sneh Pathology X-ray & Blood Bank, Kidvai Nagar,, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 9415058785, 9005730100 ,Fax: -, Email: snehpathology@gmail.com",
+        "Private",
+        "<p class='text-success'>Available, B+Ve:16, O+Ve:9, A+Ve:12</p>",
+        "2021-08-03 09:05:34",
+        "Blood Bank"
+      ],
+      [
+        "11",
+        "Blood Bank Mariyampur Hospital<br/>Mariyampur Hospital and Blood Bank,, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 9839037271, 9307455888,9453003035 ,Fax: -, Email: jessyumi@yahoo.com",
+        "Private",
+        "<p class='text-success'>Available, B+Ve:1, AB+Ve:1, A+Ve:1, O+Ve:1</p>",
+        "2021-04-15 13:31:06",
+        "Blood Bank"
+      ],
+      [
+        "12",
+        "Mayanjali Charitable Blood Bank<br/>14/113 Padam tower, Green Park Road, Civil Lines, stock exchange building, Kanpur, kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 9899770542 ,Fax: -, Email: mayanjali01@gmail.com",
+        "Charitable/Vol",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2020-05-05 08:05:00",
+        "Blood Bank"
+      ],
+      [
+        "13",
+        "Blood Bank Tulsi Hospital<br/>Tulsi Hospital Ltd. Blood Bank, 14/116-A, Civil Lines, Kanpur, Kanpur Nagar, Uttar Pradesh<br/>Phone: 9598060515, 9598060511, 0512-2536404 ,Fax: -, Email: malam00736@yahoo.in",
+        "Private",
+        "<p class='text-success'>Available, O+Ve:12, B+Ve:7, A+Ve:2</p>",
+        "2019-02-05 15:15:38",
+        "Blood Bank"
+      ],
+      [
+        "1",
+        "Blood Bank, Bhai Ghanayiaji Charitable Society<br/>Blood Bank, Dera Hari Bhagat Pura Gurudwara, Mitha Tiwana, Hoshiarpur, Hoshiarpur, Punjab<br/>Phone: 01882229547,9417230369,9915460220 ,Fax: -, Email: dilbagsingh.1971@yahoo.in",
+        "Charitable/Vol",
+        "<p class='text-success'>Available, B-Ve:3, A+Ve:23, AB-Ve:2, A-Ve:5, O+Ve:108, O-Ve:6, B+Ve:133, AB+Ve:35</p>",
+        "2021-10-20 11:01:12",
+        "Blood Bank"
+      ],
+      [
+        "2",
+        "Shivam Hospital Multi Hoshiapur <br/>Phagwara Road, Near Railway Crossing,, HOSHIARPUR, Hoshiarpur, Punjab<br/>Phone: 1882 - 248173, 8725003059, 81466 - 80274 ,Fax: -, Email:  shivamhospital73@hotmail.com",
+        "Private",
+        "<p class='text-success'>Available, B-Ve:1, AB+Ve:3, A-Ve:1, A+Ve:5, B+Ve:8, O-Ve:1, O+Ve:7</p>",
+        "2021-10-20 09:54:44",
+        "Blood Bank"
+      ],
+      [
+        "3",
+        "Civil Hospital, Dasuya<br/>Hoshiarpur Rd, Keharvali, Dasuya, Hoshiarpur, Hoshiarpur, Punjab<br/>Phone: 9855026891, 9815760306 ,Fax: -, Email: ictcdasuya@gmail.com",
+        "Govt.",
+        "<p class='text-success'>Available, B+Ve:7, A+Ve:10, AB+Ve:7, O+Ve:11, AB-Ve:1, B-Ve:3</p>",
+        "2021-10-19 09:19:03",
+        "Blood Bank"
+      ],
+      [
+        "4",
+        "Indian Medical Association Blood Bank<br/>c/o Sud Nursing Home Premises, Phagwara Road, Hoshiarpur, Hoshiarpur, Hoshiarpur, Punjab<br/>Phone: 9888822244,  01882-222244 ,Fax: -, Email: naresh_sud@rediffmail.com",
+        "Private",
+        "<p class='text-success'>Available, B-Ve:2, B+Ve:32, AB+Ve:14, O-Ve:1, A+Ve:3, O+Ve:19</p>",
+        "2021-10-18 18:16:57",
+        "Blood Bank"
+      ],
+      [
+        "5",
+        "Civil Hospital, Garhshankar<br/>Civil Hospital, Garhshankar<br/>Phone: 90411-18584, 9417881734 ,Fax: -, Email: ictcgarhshankar@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Stock</b>Not Available Search for another Component",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "6",
+        "Civil Hospital, Dasuya<br/>Hoshiarpur Rd, Keharvali, Dasuya<br/>Phone: 9855026891, 9815760306 ,Fax: -, Email: ictcdasuya@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Stock</b>Not Available Search for another Component",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "7",
+        "Civil Hospital, Hoshiarpur<br/>Jallandhar road Hoshiarpur<br/>Phone: 9872890591 ,Fax: -, Email: bbchhsp@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Stock</b>Not Available Search for another Component",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "8",
+        "Civil Hospital, Mukerian<br/>Model Town, Tikhowal, Mukerian, <br/>Phone: 94172-29551, 9876184187 ,Fax: -, Email: ictcmukerian@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Stock</b>Not Available Search for another Component",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "1",
+        "JBMM Civil Hospital amritsar<br/>jallian lodi bagh marytri civil hosptial, G T Road amritsar, amritsar, Amritsar, Punjab<br/>Phone: 9878962064 ,Fax: -, Email: btspunjab@gmail.com",
+        "Govt.",
+        "<p class='text-success'>Available, AB+Ve:2</p>",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "2",
+        "Adlakha Hospital<br/>Race Course Road, Basant Avenue, Amritsar, Amritsar, Punjab<br/>Phone: 98141-42555, 0183-2225353 ,Fax: -, Email: adlakhahospital@yahoo.co.in",
+        "Private",
+        "<p class='text-success'>Available, B+Ve:2</p>",
+        "2021-10-20 11:07:58",
+        "Blood Bank"
+      ],
+      [
+        "3",
+        "Maharaj Sawan Singh Charitable Hospital<br/>G.T. Road, Beas, Amritsar, Amritsar, Punjab<br/>Phone: 8360755480, 01853-273130-61 ,Fax: -, Email: dr.rk_gupta@yahoo.com",
+        "Charitable/Vol",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 09:27:40",
+        "Blood Bank"
+      ],
+      [
+        "4",
+        "Amandeep Medicity Blood Bank<br/>361 Mall Road Novelty Chowk, , Amritsar, Amritsar, Punjab<br/>Phone: 9781510525 ,Fax: -, Email: amandeepmedicitybloodbank@gmaill.com",
+        "Private",
+        "<p class='text-success'>Available, B+Ve:4, O+Ve:3</p>",
+        "2021-10-16 14:34:40",
+        "Blood Bank"
+      ],
+      [
+        "5",
+        "Blood Bank, Sri Guru Ram Dass Insitute of Medical Science & Research , Vallah Amritsar<br/>Blood bank, Mehta Road, Vallah Sri Amritsar, Amritsar, Amritsar, Punjab<br/>Phone: 97815-16166, 0183-2870245,2553668 ,Fax: -, Email: sgrdvallahasr@gmail.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-13 15:05:54",
+        "Blood Bank"
+      ],
+      [
+        "6",
+        "Paarvati devi Hospital unit 2 blood centre<br/>Yaseen Road, Amritsar, Amritsar, Punjab<br/>Phone: 8591150000 ,Fax: -, Email: parvatidevibloodbank@gmail.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-13 11:36:07",
+        "Blood Bank"
+      ],
+      [
+        "7",
+        "Ivy Hospital Blood Bank Amritsar<br/>Airport Road, Amritsar, Amritsar, Amritsar, Punjab<br/>Phone: 8591150000 ,Fax: -, Email: tsbloodbank.asr@ivyhospital.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-08 10:33:27",
+        "Blood Bank"
+      ],
+      [
+        "8",
+        "Blood bank M/s Pulse Hospital ( A unit of Sohmed Care Private Limited<br/>Mehta Road, Maqbool Pura Chowk, near Petrol Pump, Amritsar, Punjab, Amritsar, Amritsar, Punjab<br/>Phone: 9875930303/ 7508711490 ,Fax: -, Email: pulsehospitalasr@gmail.com",
+        "Private",
+        "<p class='text-success'>Available, O+Ve:1</p>",
+        "2021-10-03 10:04:28",
+        "Blood Bank"
+      ],
+      [
+        "9",
+        "Amandeep Hospital<br/>G.T. Road, Model Town, Amritsar,, Amritsar, Amritsar, Punjab<br/>Phone: 9888910127 ,Fax: -, Email: ah.bloodbank@amandeephospital.org",
+        "Private",
+        "<p class='text-success'>Available, A+Ve:11, B+Ve:13, O+Ve:6, AB+Ve:1, O-Ve:1</p>",
+        "2021-02-08 14:17:34",
+        "Blood Bank"
+      ],
+      [
+        "10",
+        "Civil Hospital, Ajnala<br/>Ajnala<br/>Phone: 98550-97930, 9478445515, 9463589236 ,Fax: -, Email: chajnala@yahoo.com",
+        "Govt.",
+        "<p class='text-danger'><b>Stock</b>Not Available Search for another Component",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "11",
+        "Guru Nanak Dev Hospital, Govt. Medical College-Amritsar(RBTC)<br/>Circular Road, Near Central Bank of India, Amritsar, Punjab<br/>Phone: 9888234123, 9501031883, 9872122369   ,Fax: -, Email: modelbloodbankasr@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Stock</b>Not Available Search for another Component",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "1",
+        "Indian Red Cross Society NHQ Blood Center<br/>1, Red Cross Road, New Delhi, New Delhi, Delhi<br/>Phone: 1123711551 ,Fax: 01123717454, Email: drvanshree2002@yahoo.co.in",
+        "Red Cross ",
+        "<p class='text-success'>Available, O+Ve:3, B+Ve:1, A+Ve:3</p>",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "2",
+        "M/S Venkateshwar Hospital New Delhi, Dwarka Sector-18 A<br/>New Delhi, Dwarka Sector-18 A, New Delhi, Dwarka, New Delhi, Delhi<br/>Phone: 011-48- 555-555 ,Fax: -, Email: bloodbank@venkateshwarhospitals.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 07:38:14",
+        "Blood Bank"
+      ],
+      [
+        "3",
+        "Blood Bank Sucheta Kriplani Hospital<br/>Panchkuian Road, Connaught Place, New Delhi, New Delhi, New Delhi, Delhi<br/>Phone: 23408271 ,Fax: -, Email: bloodbanklhmc@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-18 14:37:27",
+        "Blood Bank"
+      ],
+      [
+        "4",
+        "Blood Bank, Northern Railway Central Hospital<br/>Basant Lane, New Delhi, New Delhi, Delhi<br/>Phone: 23747989 ,Fax: -, Email: -",
+        "Govt.",
+        "<p class='text-success'>Available, B+Ve:13, AB-Ve:2, A-Ve:2, O-Ve:3, O+Ve:25, AB+Ve:7, B-Ve:4, A+Ve:9</p>",
+        "2021-10-16 11:04:45",
+        "Blood Bank"
+      ],
+      [
+        "5",
+        "Dr Ram Manohar Lohia Hospital Blood Bank<br/>Baba Kharak Sing Marg, Connaught Place<br/>Phone: 23365581, 23094959 ,Fax: -, Email: ddarmlh2@gmail.com",
+        "Govt.",
+        "<p class='text-danger'><b>Stock</b>Not Available Search for another Component",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "1",
+        "State of the Art Model Blood Bank, M.Y. Hospital <br/>M.Y HOSPITAL, M.G.M MEDICAL COLLEGE, Indore, Indore, Madhya Pradesh<br/>Phone: 0731-2438138 ,Fax: 0731-2514628, Email: modelbloodbankmyh@gmail.com",
+        "Govt.",
+        "<p class='text-success'>Available, A-Ve:7, B+Ve:260, O-Ve:7, AB-Ve:4, O+Ve:232, B-Ve:9, AB+Ve:44, A+Ve:161</p>",
+        "<img src='../hisglobal/bbpublic/images/transparent/live_stock.png'>",
+        "Blood Bank"
+      ],
+      [
+        "2",
+        "Indian Red Cross Society Blood Bank, Indore<br/>Chhawani Haat Maidan, Near Agarwal Kanya Vidhyalaya, Indore, Indore, Madhya Pradesh<br/>Phone: 0731-4933101 ,Fax: -, Email: indianredcrosssociety@gmail.com",
+        "Red Cross ",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 11:37:07",
+        "Blood Bank"
+      ],
+      [
+        "3",
+        "Jupiter Hospital Projects Pvt. Ltd. Blood Centre<br/>Basement-1, Scheme No. 94, Sector-1, Ring Road, Near Teen Imli Square, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 3505137, 0731 3505111 ,Fax: 0731 2499330, Email: bloodbank.indore@jupiterhospital.com",
+        "Private",
+        "<p class='text-success'>Available, B+Ve:2, O+Ve:1, A+Ve:1</p>",
+        "2021-10-20 10:25:26",
+        "Blood Bank"
+      ],
+      [
+        "4",
+        "Voluntary Aurobindo Blood Bank SAIMS Hospital, Indore<br/>Indore-Ujjain Road , Indore, Indore, Madhya Pradesh<br/>Phone: 0731 4231000, 0731 4231259 ,Fax: 0731 4231010, Email: -",
+        "Charitable/Vol",
+        "<p class='text-success'>Available, AB+Ve:3, O-Ve:3, AB-Ve:2</p>",
+        "2021-10-20 10:13:35",
+        "Blood Bank"
+      ],
+      [
+        "5",
+        "Suyash Blood Bank, Indore<br/>Opp. M.G.M. Medical College, A.B.Road,, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2493911, 0731 2493912, 0731 2493913 ,Fax: -, Email: -",
+        "Private",
+        "<p class='text-success'>Available, O+Ve:1</p>",
+        "2021-10-20 10:10:50",
+        "Blood Bank"
+      ],
+      [
+        "6",
+        "Choitram Hospital & Research Centre, Indore<br/>Manik Bagh Road,, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2362491, 0731 2362499, 9753222462 ,Fax: 0731 2470068 , 0731 , Email: -",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-20 10:03:54",
+        "Blood Bank"
+      ],
+      [
+        "7",
+        "Greater Kailash Hospitals Pvt Ltd., Indore<br/>11/A, Old Palasia, , Indore, Indore, Madhya Pradesh<br/>Phone: 0731 6633333,  0731 4051160, 0731 249116 ,Fax: -, Email: -",
+        "Private",
+        "<p class='text-success'>Available, AB-Ve:1</p>",
+        "2021-10-20 09:59:16",
+        "Blood Bank"
+      ],
+      [
+        "8",
+        "Modern Blood bank, Indore <br/>160 Dreamland Theatre Annex.,  Mhow, , MHOW, Indore, Madhya Pradesh<br/>Phone: 9826064696 ,Fax: -, Email: modernpathmhow@yahoo.co.in",
+        "Private",
+        "<p class='text-success'>Available, A+Ve:3, O-Ve:2, B-Ve:3, B+Ve:13, AB-Ve:2, O+Ve:9, AB+Ve:3</p>",
+        "2021-10-20 09:27:17",
+        "Blood Bank"
+      ],
+      [
+        "9",
+        "Shri Indore Cloth Market Hospital, Indore<br/>MOG Lines, Dhar Road, Indore, Indore, Madhya Pradesh<br/>Phone: 8770940465,07312439223, 0731 2439200 ,Fax: -, Email: icmhospital@yahoo.com",
+        "Charitable/Vol",
+        "<p class='text-success'>Available, O+Ve:6, B+Ve:1, AB+Ve:2, A+Ve:3</p>",
+        "2021-10-20 09:17:59",
+        "BSU"
+      ],
+      [
+        "10",
+        "Mohit Blood Bank Services, Indore<br/>21-22, Ground Floor Sch.No.54, Opp. Meghdoot Garden, Indore, Indore, Madhya Pradesh<br/>Phone: 9669624576 ,Fax: 0731 2552554, Email: bhrc@email.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-19 13:27:36",
+        "Blood Bank"
+      ],
+      [
+        "11",
+        "CHL Appolo Hospital, Indore<br/>A B Road, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2445566 ,Fax: 07312445544, Email: pathology@chlhospitals.com",
+        "Charitable/Vol",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-18 10:07:48",
+        "Blood Bank"
+      ],
+      [
+        "12",
+        "Sanghvi Blood Bank, Indore<br/>1st Floor,Manas Bhavan, RNT Marg,, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2527081, 0731 4208761 ,Fax: -, Email: -",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-10-01 12:10:52",
+        "Blood Bank"
+      ],
+      [
+        "13",
+        "Bombay Hospital Trust, Indore<br/>Eastern Ring Rd, IDA Scheme No.94/95, Tulsi Nagar, , Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2558866 ,Fax: -, Email: atharvasharma15@gmail.com",
+        "Charitable/Vol",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-09-28 10:56:25",
+        "Blood Bank"
+      ],
+      [
+        "14",
+        "Lahoti Medicare Pvt. Ltd., Indore<br/>4/5 Old Palasia, Ravindra Nagar,, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2490577 ,Fax: -, Email: -",
+        "Charitable/Vol",
+        "<p class='text-success'>Available, O-Ve:1, A+Ve:2, O+Ve:1, B+Ve:3</p>",
+        "2021-09-28 07:50:17",
+        "Blood Bank"
+      ],
+      [
+        "15",
+        "Gokuldas Hospital Blood BanK Sarju Bai Charitable Trust, Indore<br/>11, Sarju Prasad Marg,, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2519212, 09826077557 ,Fax: -, Email: gokuldaspathology@gmail.com",
+        "Charitable/Vol",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-09-21 17:46:27",
+        "Blood Bank"
+      ],
+      [
+        "16",
+        "Index hospital blood bank<br/>Nemawar Road, Indore, Indore, Madhya Pradesh<br/>Phone: 9893911369 ,Fax: -, Email: mansuriimran35@gmail.com",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2021-07-17 11:15:54",
+        "Blood Bank"
+      ],
+      [
+        "17",
+        "Lions Club of Indore, Indore<br/>East 9, Premkumari Hospital, Biyabani,, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2343122 ,Fax: -, Email: -",
+        "Private",
+        "<p class='text-success'>Available, A+Ve:29, O-Ve:4, AB-Ve:1, B+Ve:24, O+Ve:31, AB+Ve:4, B-Ve:2, A-Ve:1</p>",
+        "2021-02-23 09:06:24",
+        "Blood Bank"
+      ],
+      [
+        "18",
+        "Index Medical College Hospital and Research Centre run by Mayank Welfare Society, Indore<br/>104, Trishul Apartment, 5, Sanghi Colony, Opp. Amaltas Hotel, , Indore, Indore, Madhya Pradesh<br/>Phone: 0731 4215757,  09752538454 ,Fax: 0731 4044715, Email: -",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2019-06-01 11:05:43",
+        "Blood Bank"
+      ],
+      [
+        "19",
+        "Arihant Hosptial and Research Centre, Indore<br/>283-A Gumasta Nagar,, Indore, Indore, Madhya Pradesh<br/>Phone: 0731 2785172, 0731 278517274 ,Fax: 0731 2785175, Email: -",
+        "Private",
+        "<p class='text-danger'><b>Whole Blood</b>Not Available Search for another Component",
+        "2018-01-22 13:09:40",
+        "Blood Bank"
+      ]
+    ]
+  }
