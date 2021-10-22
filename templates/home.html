@@ -1,144 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="static/Bloodbank-favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/style.css">
-    <script src="static/script.js"></script>
-    <title>BloodBank</title>
-</head>
-<body>
-    <div class="header"> 
-    <span class="logo"><a href="#"><img width="70%" src="https://www.eraktkosh.in/BLDAHIMS/hisglobal/bbpublic/images/Rakt5.png" alt="eRaktkosh" title="eRaktkosh"></a></span>
-    <span class="navbar">
-        <!-- {% if authenticated %} -->
-        <!-- <button disabled="disabled">hello {{username}}</button> -->
-        <!-- {% else %} -->
-        <button id="show-register">Register</button>
-        <button id="show-login" class="login">Login</button>
-        <!-- {% endif %} -->
-    </span>
-    <h1>BloodBank</h1>
-</div>
-  <br>
-  <hr>
-  
-<!-- <div class="containerlogin">
-    <form action="somewebsite" method="post">
-        <input type="email" name="email">
-        <input type="password" name="password">
-        <input type="sumbit" value="submit">
-    </form>
-</div> -->
-
-<div class="center">
-    <!-- <button id="show-login">Login</button> -->
-  </div>
-  <form action="www.google.com" method="post">
-  <div class="popup loginpage">
-    <div class="close-btn">&times;</div>
-    <div class="form">
-      <h2>Log in</h2>
-      <div class="form-element">
-        <label for="email">Email</label>
-        <input type="email" id="email" required placeholder="Enter email">
-      </div>
-      <div class="form-element">
-        <label for="password">Password</label>
-        <input type="password" id="password"  required placeholder="Enter password">
-      </div>
-      <div class="form-element">
-        <button type="submit">Sign in</button>
-      </div>
-    </div>
-  </div>
-
-  </form>
+{% block content %}
+<h1 class="title">
+    Welcome, {{name}}!
+</h1>
+{% endblock %}
 
 
-  <form action="www.google.com" method="post">
-  <div class="popup registerpage">
-    <div class="close-btn">&times;</div>
-    <div class="form">
-      <h2>Register</h2>
-      <div class="form-element">
-            <!-- <label for="Name">Username</label></td> -->
-           <input type="text" id="Name"  required placeholder="Enter Name">
-        </tr>
-      </div>
-      <div class="form-element">
-        <!-- <label for="email">Email</label> -->
-        <input type="email" id="email"  required placeholder="Enter email">
-      </div>
-      <div class="form-element">
-        <!-- <label for="bloodgroup">Blood Group</label> -->
-        <input type="text" id="bloodgroup" required placeholder="Enter Blood Group">
-      </div>
-      <div class="form-element">
-        <!-- <label for="password">Password</label> -->
-        <input type="password" id="password" required placeholder="Enter password">
-      </div>
-      <div class="form-element">
-        <!-- <label for="Confirmpassword">Confirm Password</label> -->
-        <input type="password" id="Confirmpassword"  required placeholder="Confirm password">
-      </div>
-      <div class="form-element">
-        <button type="submit">Register</button>
-      </div>
-    </div>
-</div>
-</form>
 
-    <div class="selection">
-    <select name="State" id="state" required>
-        <option value="" disabled hidden selected>Select State</option>
-        <option value="Andhra Pradesh">Andhra Pradesh</option>
-        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-        <option value="Assam">Assam</option>
-        <option value="Bihar">Bihar</option>
-        <option value="Chandigarh">Chandigarh</option>
-        <option value="Chhattisgarh">Chhattisgarh</option>
-        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-        <option value="Daman and Diu">Daman and Diu</option>
-        <option value="Delhi">Delhi</option>
-        <option value="Lakshadweep">Lakshadweep</option>
-        <option value="Puducherry">Puducherry</option>
-        <option value="Goa">Goa</option>
-        <option value="Gujarat">Gujarat</option>
-        <option value="Haryana">Haryana</option>
-        <option value="Himachal Pradesh">Himachal Pradesh</option>
-        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-        <option value="Jharkhand">Jharkhand</option>
-        <option value="Karnataka">Karnataka</option>
-        <option value="Kerala">Kerala</option>
-        <option value="Madhya Pradesh">Madhya Pradesh</option>
-        <option value="Maharashtra">Maharashtra</option>
-        <option value="Manipur">Manipur</option>
-        <option value="Meghalaya">Meghalaya</option>
-        <option value="Mizoram">Mizoram</option>
-        <option value="Nagaland">Nagaland</option>
-        <option value="Odisha">Odisha</option>
-        <option value="Punjab">Punjab</option>
-        <option value="Rajasthan">Rajasthan</option>
-        <option value="Sikkim">Sikkim</option>
-        <option value="Tamil Nadu">Tamil Nadu</option>
-        <option value="Telangana">Telangana</option>
-        <option value="Tripura">Tripura</option>
-        <option value="Uttar Pradesh">Uttar Pradesh</option>
-        <option value="Uttarakhand">Uttarakhand</option>
-        <option value="West Bengal">West Bengal</option>
-    </select>
-    <select name="city" id="city" required>
-        <option value="" disabled hidden selected>Select City</option>
-        {% for x in cities %}
-        <option value="{{cityname}}">{{cityname}}</option>
-        {% endfor %}
-    </select>
-<select name="bloodGroup" id="BloodGroup" required>
+
+
+<div class="selection">
+  <select name="State" id="state" required>
+    <option value="" disabled hidden selected>Select State</option>
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+    <option value="Assam">Assam</option>
+    <option value="Bihar">Bihar</option>
+    <option value="Chandigarh">Chandigarh</option>
+    <option value="Chhattisgarh">Chhattisgarh</option>
+    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+    <option value="Daman and Diu">Daman and Diu</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Lakshadweep">Lakshadweep</option>
+    <option value="Puducherry">Puducherry</option>
+    <option value="Goa">Goa</option>
+    <option value="Gujarat">Gujarat</option>
+    <option value="Haryana">Haryana</option>
+    <option value="Himachal Pradesh">Himachal Pradesh</option>
+    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+    <option value="Jharkhand">Jharkhand</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Madhya Pradesh">Madhya Pradesh</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Meghalaya">Meghalaya</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Nagaland">Nagaland</option>
+    <option value="Odisha">Odisha</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Sikkim">Sikkim</option>
+    <option value="Tamil Nadu">Tamil Nadu</option>
+    <option value="Telangana">Telangana</option>
+    <option value="Tripura">Tripura</option>
+    <option value="Uttar Pradesh">Uttar Pradesh</option>
+    <option value="Uttarakhand">Uttarakhand</option>
+    <option value="West Bengal">West Bengal</option>
+  </select>
+  <select name="city" id="city" required>
+    <option value="" disabled hidden selected>Select City</option>
+    {% for x in cities %}
+    <option value="{{cityname}}">{{cityname}}</option>
+    {% endfor %}
+  </select>
+  <select name="bloodGroup" id="BloodGroup" required>
     <option value="" hidden selected disabled>Blood Group</option>
     <option value="None">none</option>
     <option value="A1">A+</option>
@@ -149,115 +65,9 @@
     <option value="B1">B-</option>
     <option value="AB1">AB-</option>
     <option value="O1">O-</option>
-    <option value="all">All</option>    
-</select>
-<button class="btn btn-large">Submit</button>
+    <option value="all">All</option>
+  </select>
+  <button class="btn btn-large">Submit</button>
 </div>
-    
-<center>
-    <table class="table table-responsive table-bordered">
-      <tbody>
-      <tr>
-      <th colspan="3" style="color:white;background-color:red;">Compatible Blood Type Donors</th>
-      </tr>
-      <tr>
-      <td><b>Blood Type</b></td>
-      <td><b>Donate Blood To</b></td>
-      <td><b>Receive Blood From</b></td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>A+</b></span></td>
-      <td>A+ AB+</td>
-      <td>A+ A- O+ O-</td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>O+</b></span></td>
-      <td>O+ A+ B+ AB+</td>
-      <td>O+ O-</td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>B+</b></span></td>
-      <td>B+ AB+</td>
-      <td>B+ B- O+ O-</td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>AB+</b></span></td>
-      <td>AB+</td>
-      <td>Everyone</td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>A-</b></span></td>
-      <td>A+ A- AB+ AB-</td>
-      <td>A- O-</td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>O-</b></span></td>
-      <td>Everyone</td>
-      <td>O-</td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>B-</b></span></td>
-      <td>B+ B- AB+ AB-</td>
-      <td>B- O-</td>
-      </tr>
-      <tr>
-      <td><span style="color: #961e1b;"><b>AB-</b></span></td>
-      <td>AB+ AB-</td>
-      <td>AB- A- B- O-</td>
-      </tr>
-      </tbody>
-      </table>
-</center>
-
 <br>
-      <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4">
-
-    <!-- Footer Elements -->
-    <div class="container">
-  
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <i class="fab fa-facebook-f"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <i class="fab fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-            <i class="fab fa-google-plus-g"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
-            <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-dribbble mx-1">
-            <i class="fab fa-dribbble"> </i>
-          </a>
-        </li>
-      </ul>
-      <!-- Social buttons -->
-  
-    </div>
-    <!-- Footer Elements -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright: Group 007</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-
-  <script src="static/script.js"></script>
-</body>
-</html>
-
+{% extends "index.html" %}

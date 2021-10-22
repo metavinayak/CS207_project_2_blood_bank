@@ -9,6 +9,8 @@
 6. [Shruti Jain]()
 7. [Harsh Kumar]()
 
+Credits for Login feature: https://github.com/Faouzizi/Create_LoginPage.git
+
 ## Setup environment
 1. Fork and Clone the repository
    ```bash
