@@ -1,4 +1,3 @@
-/bin/data
 auth/
- __pycache__/*
- db.sqlite
+/__pycache__
+db.sqlite

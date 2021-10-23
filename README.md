@@ -1,11 +1,11 @@
 # CS207_project_2_blood_bank
 <!-- Insert your github ids in parenthesis -->
 ## Team Details
-1. [Pushkar Patel](github.com/pushkar-dev)
-2. [Vinayak Sachan](github.com/metavinayak)
-3. [Himakshi Gupta]()
-4. [Aniket Sukhija]()
-5. [Isha Sukhija]()
+1. [Pushkar Patel](https://github.com/pushkar-dev)
+2. [Vinayak Sachan](https://github.com/metavinayak)
+3. [Himakshi Gupta](https://github.com/Himakshi-gupta14)
+4. [Aniket Sukhija](https://github.com/Sukhija-Aniket)
+5. [Isha Sukhija](https://github.com/isha9943)
 6. [Shruti Jain]()
 7. [Harsh Kumar]()
 
