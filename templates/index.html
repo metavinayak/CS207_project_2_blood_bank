@@ -8,8 +8,7 @@
     <link rel="shortcut icon" href="static/Bloodbank-favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/style.css">
-    <script src="static/script.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
     <title>BloodBank</title>
 </head>
 
@@ -28,9 +27,17 @@
         </span>
         <h1>BloodBank</h1>
     </div>
-    <br>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <div class="notification is-danger">
+            {{ messages[0] }}<br>
+        </div>
+    </div>
+    {% endif %}
+    {% endwith %}
     <hr>
-
     <!-- <div class="containerlogin">
     <form action="somewebsite" method="post">
         <input type="email" name="email">
@@ -61,13 +68,13 @@
             </div> -->
             <div class="field form">
                 <div class="control form-element">
-                    <input class="input is-large" type="email" name="email" placeholder="Your Email" autofocus="">
+                    <input class="input is-large" type="email" name="email" placeholder="Your Email" autofocus="" required>
                 </div>
             </div>
 
             <div class="field form-element">
                 <div class="control">
-                    <input class="input is-large" type="password" name="password" placeholder="Your Password">
+                    <input class="input is-large" type="password" name="password" placeholder="Your Password" required>
                 </div>
             </div>
             <div class="field form-element">
@@ -113,19 +120,19 @@
       </div> -->
                 <div class="field form-element">
                     <div class="control">
-                        <input class="input is-large" type="email" name="email" placeholder="Email" autofocus="">
+                        <input class="input is-large" type="email" name="email" placeholder="Email" autofocus="" required>
                     </div>
                 </div>
 
                 <div class="field form-element">
                     <div class="control">
-                        <input class="input is-large" type="text" name="name" placeholder="Name" autofocus="">
+                        <input class="input is-large" type="text" name="name" placeholder="Name" autofocus="" pattern="[A-Za-z0-9]{1,20}" required>
                     </div>
                 </div>
 
                 <div class="field form-element">
                     <div class="control">
-                        <input class="input is-large" type="password" name="password" placeholder="Password">
+                        <input class="input is-large" type="password" name="password" placeholder="Password" required>
                     </div>
                 </div>
 
@@ -133,62 +140,62 @@
             </div>
         </div>
     </form>
-<!--Selection part removed from here,moved to home.html (Display after login only)-->
-<center>
-    <table class="table table-responsive table-bordered">
-      <tbody>
-        <tr>
-          <th colspan="3" style="color:white;background-color:red;">Compatible Blood Type Donors</th>
-        </tr>
-        <tr>
-          <td><b>Blood Type</b></td>
-          <td><b>Donate Blood To</b></td>
-          <td><b>Receive Blood From</b></td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>A+</b></span></td>
-          <td>A+ AB+</td>
-          <td>A+ A- O+ O-</td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>O+</b></span></td>
-          <td>O+ A+ B+ AB+</td>
-          <td>O+ O-</td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>B+</b></span></td>
-          <td>B+ AB+</td>
-          <td>B+ B- O+ O-</td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>AB+</b></span></td>
-          <td>AB+</td>
-          <td>Everyone</td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>A-</b></span></td>
-          <td>A+ A- AB+ AB-</td>
-          <td>A- O-</td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>O-</b></span></td>
-          <td>Everyone</td>
-          <td>O-</td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>B-</b></span></td>
-          <td>B+ B- AB+ AB-</td>
-          <td>B- O-</td>
-        </tr>
-        <tr>
-          <td><span style="color: #961e1b;"><b>AB-</b></span></td>
-          <td>AB+ AB-</td>
-          <td>AB- A- B- O-</td>
-        </tr>
-      </tbody>
-    </table>
-  </center>
-  
+    <!--Selection part removed from here,moved to home.html (Display after login only)-->
+    <center>
+        <table class="table table-responsive table-bordered">
+            <tbody>
+                <tr>
+                    <th colspan="3" style="color:white;background-color:red;">Compatible Blood Type Donors</th>
+                </tr>
+                <tr>
+                    <td><b>Blood Type</b></td>
+                    <td><b>Donate Blood To</b></td>
+                    <td><b>Receive Blood From</b></td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>A+</b></span></td>
+                    <td>A+ AB+</td>
+                    <td>A+ A- O+ O-</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>O+</b></span></td>
+                    <td>O+ A+ B+ AB+</td>
+                    <td>O+ O-</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>B+</b></span></td>
+                    <td>B+ AB+</td>
+                    <td>B+ B- O+ O-</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>AB+</b></span></td>
+                    <td>AB+</td>
+                    <td>Everyone</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>A-</b></span></td>
+                    <td>A+ A- AB+ AB-</td>
+                    <td>A- O-</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>O-</b></span></td>
+                    <td>Everyone</td>
+                    <td>O-</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>B-</b></span></td>
+                    <td>B+ B- AB+ AB-</td>
+                    <td>B- O-</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #961e1b;"><b>AB-</b></span></td>
+                    <td>AB+ AB-</td>
+                    <td>AB- A- B- O-</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+
     <br>
     <!-- Footer -->
     <footer class="page-footer font-small special-color-dark pt-4">
@@ -237,7 +244,38 @@
     </footer>
     <!-- Footer -->
 
-    <script src="static/script.js"></script>
+    <script src="../static/script.js"></script>
+
+    <style>
+        .alert {
+            padding: 10px;
+            margin: 20px auto;
+            background-color: #f44336;
+            color: white;
+            width: 50%;
+        }
+        @media (min-width:320px) and (max-width: 600px) {
+            .alert {
+            width: 90%;
+            }
+        }
+        
+        .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .closebtn:hover {
+            color: black;
+        }
+    </style>
+
 </body>
 
 </html>
