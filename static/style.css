@@ -192,4 +192,10 @@ color:#1a79ca;
 text-decoration:none;
 font-weight:600;
 }
-
+.error{
+    color: red;
+    font-size: 15;
+    border: red;
+    border-radius: 10%;
+    font-weight: 100;
+}

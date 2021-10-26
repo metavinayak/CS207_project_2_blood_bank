@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, redirect, url_for, request, flash
+from flask import Blueprint, render_template, redirect, url_for, request, flash,session
 from werkzeug.security import generate_password_hash, check_password_hash
 from models import User
 from flask_login import login_user, logout_user, login_required, current_user
@@ -18,13 +18,12 @@ def login(): # define login page fucntion
         user = User.query.filter_by(email=email).first()
         # check if the user actually exists
         # take the user-supplied password, hash it, and compare it to the hashed password in the database
-        if not user:
-            flash('Please sign up before!')
-            # return redirect(url_for('auth.signup'))
+        if user==None:
+            flash('Please sign up before!', category='warning')
             return redirect(url_for('auth.index'))
             
         elif not check_password_hash(user.password, password):
-            flash('Please check your login details and try again.')
+            flash('Please check your login details and try again.',category='warning')
             # return redirect(url_for('auth.login')) 
             return redirect(url_for('auth.index'))
 
@@ -41,7 +40,7 @@ def signup(): # define the sign up function
         password = request.form.get('password')
         user = User.query.filter_by(email=email).first() # if this returns a user, then the email already exists in database
         if user: # if a user is found, we want to redirect back to signup page so user can try again
-            flash('Email address already exists')
+            flash('Email address already exists',category='warning')
             # return redirect(url_for('auth.signup'))
             return redirect(url_for('auth.index'))
 
@@ -50,16 +49,16 @@ def signup(): # define the sign up function
         # add the new user to the database
         db.session.add(new_user)
         db.session.commit()
-        flash('Succesfully registered! Please Login')
+        flash('Succesfully registered! Please Login',category='info')
         # return redirect(url_for('auth.login')) # redirects to login
         return redirect(url_for('auth.index')) # redirects to login
 
 @auth.route('/') # home page that return 'index'
 def index():
-    return render_template('index.html')
+    return redirect('/home')
 
 @auth.route('/logout') # define logout path
 @login_required
 def logout(): #define the logout function
     logout_user()
-    return redirect(url_for('main.index'))
+    return redirect(url_for('main.home'))
