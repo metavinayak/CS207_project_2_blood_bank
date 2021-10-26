@@ -1,11 +1,18 @@
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    {% for category, message in messages %}
+      <p class="aler alert-{{ category }}">{{ message }}</p>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+<!-- {{session.pop('_flashes',None)}} do not delete the content in block-->
+{% if loggedin==True %}
 {% block content %}
 <h1 class="title">
     Welcome, {{name}}!
 </h1>
+<button id="myButton" style="margin-left:20 ; color: red" ><a href="\logout" style="color:red;">Log Out</a></button>
 {% endblock %}
-
-
-
 
 
 <div class="selection">
@@ -70,4 +77,5 @@
   <button class="btn btn-large">Submit</button>
 </div>
 <br>
+{% endif %}
 {% extends "index.html" %}
