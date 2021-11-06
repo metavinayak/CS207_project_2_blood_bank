@@ -199,3 +199,8 @@ font-weight:600;
     border-radius: 10%;
     font-weight: 100;
 }
+#HospitalName,
+        #DateTime {
+            border-radius: 7px;
+            padding: 10px;
+        }
