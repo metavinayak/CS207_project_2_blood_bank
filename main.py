@@ -7,9 +7,9 @@ main = Blueprint('main', __name__)
 @main.route('/home') # home page that return 'home'
 def home():
     if current_user.is_authenticated:
-        return render_template('home.html', name=current_user.name,loggedin=True)
+        return render_template('index.html', name=current_user.name,loggedin=True)
     else:
-        return render_template('home.html', name='',loggedin=False)
+        return render_template('index.html', name='',loggedin=False)
 
 
 app = create_app() # we initialize our flask app using the __init__.py function

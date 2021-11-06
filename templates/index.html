@@ -24,23 +24,51 @@
             <button id="show-register">Register</button>
             <button id="show-login" class="login">Login</button>
             {% endif %}
-            {% if loggedin==True %}            
+            {% if loggedin==True %}
             <button id="show-logout"><a href="\logout" style="text-decoration: none;color:inherit;">Logout</a></button>
             {% endif %}
         </span>
         <h1>BloodBank</h1>
     </div>
+    {% if loggedin==True %}
+    <div class="selection">
+        <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name" required>
+        <select name="bloodGroup" id="BloodGroup" required>
+            <option value="" hidden selected disabled>Blood Group</option>
+            <option value="All">All</option>
+            <option value="A+Ve">A+Ve</option>
+            <option value="B+Ve">B+Ve</option>
+            <option value="AB+Ve">AB+Ve</option>
+            <option value="O+Ve">O+Ve</option>
+            <option value="A-Ve">A-Ve</option>
+            <option value="B-Ve">B-Ve</option>
+            <option value="AB-Ve">AB-Ve</option>
+            <option value="O-Ve">O-Ve</option>
+        </select>
+        <input type="date" id="DateTime" name="DateTime">
+        <button class="btn btn-large">Submit</button>
+    </div>
+    <br>
+    <style>
+        #HospitalName,
+        #DateTime {
+            border-radius: 7px;
+            padding: 10px;
+        }
+    </style>
+    {% endif %}
+    {% if loggedin==False %}
     <div style="margin-left: 2%; margin-right: 2%; margin-top: 2%;">
         {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
-            {% for category, message in messages %}
-                <div class="alert alert-{{category}} alert-dismissible fade show">
-                    {{message}}
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                </div>
-            {% endfor %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{category}} alert-dismissible fade show">
+            {{message}}
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        {% endfor %}
         {% endif %}
-      {% endwith %}
+        {% endwith %}
     </div>
     <!-- {{session.pop('_flashes',None)}} do not delete this comment (i gave a fair warning already)-->
     <hr>
@@ -51,7 +79,8 @@
             <div class="close-btn">&times;</div>
             <div class="field form">
                 <div class="control form-element">
-                    <input class="input is-large" type="email" name="email" placeholder="Your Email" autofocus="" required>
+                    <input class="input is-large" type="email" name="email" placeholder="Your Email" autofocus=""
+                        required>
                 </div>
             </div>
 
@@ -78,13 +107,15 @@
             <div class="form">
                 <div class="field form-element">
                     <div class="control">
-                        <input class="input is-large" type="email" name="email" placeholder="Email" autofocus="" required>
+                        <input class="input is-large" type="email" name="email" placeholder="Email" autofocus=""
+                            required>
                     </div>
                 </div>
 
                 <div class="field form-element">
                     <div class="control">
-                        <input class="input is-large" type="text" name="name" placeholder="Name" autofocus="" pattern="[A-Za-z0-9]{1,20}" required>
+                        <input class="input is-large" type="text" name="name" placeholder="Name" autofocus=""
+                            pattern="[A-Za-z0-9]{1,20}" required>
                     </div>
                 </div>
 
@@ -98,6 +129,7 @@
             </div>
         </div>
     </form>
+    {% endif %}
     <center>
         <table class="table table-responsive table-bordered">
             <tbody>
