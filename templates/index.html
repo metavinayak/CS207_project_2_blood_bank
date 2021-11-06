@@ -52,15 +52,23 @@
         </div>
     </form>
     <br>
-    <table class="table table-responsive table-bordered">
+    
+    <!-- <table class="table table-responsive table-bordered"> -->
+    <table class="table table-striped table-responsive">
+
         <tbody>
             <tr>
-                <th colspan="3" style="color:white;background-color:red;">Header</th>
+                <!-- <th colspan="3" style="color:white;background-color:red;">Header</th> -->
+      <th scope="col">Hospital Name and details</th>
+      <th scope="col">Blood Groups</th>
+      <th scope="col">Last Updated</th>
             </tr>
-            {% if msg!=None%}           
+            {% if msg!=None and msg[0] !='Empty query result'%}           
                 {% for i in msg%}
-                <tr>
-                    <td><b>{{i}}</b></td>
+                <tr>    
+                        <td><b>{{i[0]}}</b></td>
+                        <td><b>{{i[1]}}</b></td>
+                        <td><b>{{i[2]}}</b></td>
                 </tr>
                 {%endfor%}
             {%endif%}

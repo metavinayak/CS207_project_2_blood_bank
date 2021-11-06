@@ -26,7 +26,6 @@ def login(): # define login page fucntion
             flash('Please check your login details and try again.',category='warning')
             # return redirect(url_for('auth.login')) 
             return redirect(url_for('auth.index'))
-
         login_user(user, remember=remember)
         return redirect(url_for('main.home'))
 

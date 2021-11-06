@@ -10,13 +10,15 @@ def home():
     if current_user.is_authenticated:
         msg=None
         if request.method == 'POST':            
-            try:  
-                name = request.form["HospitalName"]  
+            try:
+                hname = request.form["HospitalName"]  
                 grp = request.form["bloodGroup"]  
                 date = request.form["DateTime"]  
                 with sqlite3.connect("hospital_data.sqlite") as con:  
-                    cur = con.cursor()  
-                    msg=cur.execute('SELECT * FROM hospital WHERE name LIKE "%Regency%"').fetchall()
+                    cur = con.cursor()
+                    # name, available, date
+                    msg=cur.execute(f'SELECT * FROM hospital WHERE ((name LIKE "%{hname}%") AND ((available LIKE "%{grp}%") OR (available LIKE "%All%")))').fetchall()
+
                     if not len(msg)>=1: msg=("Empty query result",) 
             except:    
                 msg = ("Error occured in try",)    
