@@ -31,31 +31,27 @@
         <h1>BloodBank</h1>
     </div>
     {% if loggedin==True %}
-    <div class="selection">
-        <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name" required>
-        <select name="bloodGroup" id="BloodGroup" required>
-            <option value="" hidden selected disabled>Blood Group</option>
-            <option value="All">All</option>
-            <option value="A+Ve">A+Ve</option>
-            <option value="B+Ve">B+Ve</option>
-            <option value="AB+Ve">AB+Ve</option>
-            <option value="O+Ve">O+Ve</option>
-            <option value="A-Ve">A-Ve</option>
-            <option value="B-Ve">B-Ve</option>
-            <option value="AB-Ve">AB-Ve</option>
-            <option value="O-Ve">O-Ve</option>
-        </select>
-        <input type="date" id="DateTime" name="DateTime">
-        <button class="btn btn-large">Submit</button>
-    </div>
+    <form action="/" method="post">
+        <div class="selection">
+            <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name"
+                pattern="[A-Za-z0-9_ ,]{1,256}" required>
+            <select name="bloodGroup" id="BloodGroup" required>
+                <option value="" hidden selected disabled>Blood Group</option>
+                <option value="All">All</option>
+                <option value="A+Ve">A+Ve</option>
+                <option value="B+Ve">B+Ve</option>
+                <option value="AB+Ve">AB+Ve</option>
+                <option value="O+Ve">O+Ve</option>
+                <option value="A-Ve">A-Ve</option>
+                <option value="B-Ve">B-Ve</option>
+                <option value="AB-Ve">AB-Ve</option>
+                <option value="O-Ve">O-Ve</option>
+            </select>
+            <input type="date" id="DateTime" name="DateTime">
+            <button class="btn btn-large">Submit</button>
+        </div>
+    </form>
     <br>
-    <style>
-        #HospitalName,
-        #DateTime {
-            border-radius: 7px;
-            padding: 10px;
-        }
-    </style>
     {% endif %}
     {% if loggedin==False %}
     <div style="margin-left: 2%; margin-right: 2%; margin-top: 2%;">
