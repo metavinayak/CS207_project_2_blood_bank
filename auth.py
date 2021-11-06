@@ -61,3 +61,24 @@ def index():
 def logout(): #define the logout function
     logout_user()
     return redirect(url_for('main.home'))
+
+# @auth.route("/getinfo",methods = ["POST"])  
+# @login_required
+# def getinfo():  
+#     msg = "msg"  
+#     if request.method == "POST":  
+#         try:  
+#             name = request.form["HospitalName"]  
+#             email = request.form["bloodGroup"]  
+#             address = request.form["DateTime"]  
+#             with sqlite3.connect("hospital_data.sqlite") as con:  
+#                 cur = con.cursor()  
+#                 cur.execute('SELECT * FROM hospital WHERE name LIKE "Regency"')  
+#                 con.commit()  
+#                 msg = "..."  
+#         except:  
+#             con.rollback()  
+#             msg = "..."  
+#         finally:  
+#             return render_template("index.html",msg = msg)  
+#             con.close()  
