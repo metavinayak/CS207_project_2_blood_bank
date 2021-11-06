@@ -31,7 +31,7 @@
         <h1>BloodBank</h1>
     </div>
     {% if loggedin==True %}
-    <form action="/" method="post">
+    <form action="/home" method="post">
         <div class="selection">
             <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name"
                 pattern="[A-Za-z0-9_ ,]{1,256}" required>
@@ -52,6 +52,21 @@
         </div>
     </form>
     <br>
+    <table class="table table-responsive table-bordered">
+        <tbody>
+            <tr>
+                <th colspan="3" style="color:white;background-color:red;">Header</th>
+            </tr>
+            {% if msg!=None%}           
+                {% for i in msg%}
+                <tr>
+                    <td><b>{{i}}</b></td>
+                </tr>
+                {%endfor%}
+            {%endif%}
+        </tbody>
+    </table>
+    
     {% endif %}
     {% if loggedin==False %}
     <div style="margin-left: 2%; margin-right: 2%; margin-top: 2%;">
