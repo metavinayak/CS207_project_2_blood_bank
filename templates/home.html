@@ -1,11 +1,11 @@
 {% if loggedin==True %}
-{% block content %}
+<!-- {% block content %}
 <h1 class="title">
     Welcome, {{name}}!
 </h1>
-{% endblock %}
+{% endblock %} -->
 
-<div class="selection">
+<!-- <div class="selection">
   <select name="State" id="state" required>
     <option value="" disabled hidden selected>Select State</option>
     <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -50,20 +50,22 @@
     {% for x in cities %}
     <option value="{{cityname}}">{{cityname}}</option>
     {% endfor %}
-  </select>
+  </select> -->
+<div class="selection">
+  <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name" required>
   <select name="bloodGroup" id="BloodGroup" required>
     <option value="" hidden selected disabled>Blood Group</option>
-    <option value="None">none</option>
-    <option value="A1">A+</option>
-    <option value="B1">B+</option>
-    <option value="AB1">AB+</option>
-    <option value="O1">O+</option>
-    <option value="A1">A-</option>
-    <option value="B1">B-</option>
-    <option value="AB1">AB-</option>
-    <option value="O1">O-</option>
-    <option value="all">All</option>
+    <option value="All">All</option>
+    <option value="A+Ve">A+Ve</option>
+    <option value="B+Ve">B+Ve</option>
+    <option value="AB+Ve">AB+Ve</option>
+    <option value="O+Ve">O+Ve</option>
+    <option value="A-Ve">A-Ve</option>
+    <option value="B-Ve">B-Ve</option>
+    <option value="AB-Ve">AB-Ve</option>
+    <option value="O-Ve">O-Ve</option>
   </select>
+  <input type="date" id="DateTime" name="DateTime">
   <button class="btn btn-large">Submit</button>
 </div>
 <br>
