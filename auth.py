@@ -3,7 +3,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from models import User
 from flask_login import login_user, logout_user, login_required, current_user
 from __init__ import db
-
+import sqlite3
 
 auth = Blueprint('auth', __name__) # create a Blueprint object that we name 'auth'
 
@@ -62,3 +62,24 @@ def index():
 def logout(): #define the logout function
     logout_user()
     return redirect(url_for('main.home'))
+
+# @auth.route("/getinfo",methods = ["POST"])  
+# @login_required
+# def getinfo():  
+#     msg = "msg"  
+#     if request.method == "POST":  
+#         try:  
+#             name = request.form["HospitalName"]  
+#             email = request.form["bloodGroup"]  
+#             address = request.form["DateTime"]  
+#             with sqlite3.connect("hospital_data.sqlite") as con:  
+#                 cur = con.cursor()  
+#                 cur.execute('SELECT * FROM hospital WHERE name LIKE "Regency"')  
+#                 con.commit()  
+#                 msg = "..."  
+#         except:  
+#             con.rollback()  
+#             msg = "..."  
+#         finally:  
+#             return render_template("index.html",msg = msg)  
+#             con.close()  
