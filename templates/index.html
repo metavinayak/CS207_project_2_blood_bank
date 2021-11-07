@@ -37,7 +37,7 @@
                 pattern="[A-Za-z0-9_ ,]{1,256}" required>
             <select name="bloodGroup" id="BloodGroup" required>
                 <option value="" hidden selected disabled>Blood Group</option>
-                <option value="All">All</option>
+                <option value="All">Show All</option>
                 <option value="A+Ve">A+Ve</option>
                 <option value="B+Ve">B+Ve</option>
                 <option value="AB+Ve">AB+Ve</option>
@@ -52,29 +52,28 @@
         </div>
     </form>
     <br>
-    
-    <!-- <table class="table table-responsive table-bordered"> -->
+
     <table class="table table-striped table-responsive">
 
         <tbody>
+            {% if msg!=None and msg[0] !='Empty query result'%}
             <tr>
-                <!-- <th colspan="3" style="color:white;background-color:red;">Header</th> -->
-      <th scope="col">Hospital Name and details</th>
-      <th scope="col">Blood Groups</th>
-      <th scope="col">Last Updated</th>
+                <th scope="col" class="search-header">Hospital Name and details</th>
+                <th scope="col" class="search-header">Blood Groups</th>
+                <th scope="col" class="search-header">Last Updated</th>
             </tr>
-            {% if msg!=None and msg[0] !='Empty query result'%}           
-                {% for i in msg%}
-                <tr>    
-                        <td><b>{{i[0]}}</b></td>
-                        <td><b>{{i[1]}}</b></td>
-                        <td><b>{{i[2]}}</b></td>
-                </tr>
-                {%endfor%}
+
+            {% for i in msg%}
+            <tr>
+                <td><b>{{i[0]}}</b></td>
+                <td><b>{{i[1]}}</b></td>
+                <td><b>{{i[2]}}</b></td>
+            </tr>
+            {%endfor%}
             {%endif%}
         </tbody>
     </table>
-    
+
     {% endif %}
     {% if loggedin==False %}
     <div style="margin-left: 2%; margin-right: 2%; margin-top: 2%;">
