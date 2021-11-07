@@ -17,8 +17,8 @@ def home():
                 with sqlite3.connect("hospital_data.sqlite") as con:  
                     cur = con.cursor()
                     # name, available, date
-                    if(grp=='Any'):
-                        msg=cur.execute(f'SELECT * FROM hospital WHERE name LIKE "%{hname}%")').fetchall()
+                    if('All' in grp):
+                        msg=cur.execute(f'SELECT * FROM hospital WHERE name LIKE "%{hname}%"').fetchall()
                     else:
                         msg=cur.execute(f'SELECT * FROM hospital WHERE ((name LIKE "%{hname}%") AND ((available LIKE "%{grp}%") OR (available LIKE "%All%")))').fetchall()
 
