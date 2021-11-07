@@ -58,6 +58,7 @@
         <tbody>
             {% if msg!=None and msg[0] !='Empty query result'%}
             <tr>
+                <th scope="col" class="search-header">#</th>
                 <th scope="col" class="search-header">Hospital Name and details</th>
                 <th scope="col" class="search-header">Blood Groups</th>
                 <th scope="col" class="search-header">Last Updated</th>
@@ -65,6 +66,7 @@
 
             {% for i in msg%}
             <tr>
+                <td><b>{{loop.index}}</b></td>
                 <td><b>{{i[0]}}</b></td>
                 <td><b>{{i[1]}}</b></td>
                 <td><b>{{i[2]}}</b></td>
