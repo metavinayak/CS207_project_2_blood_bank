@@ -16,9 +16,8 @@
 
 <body>
     <div class="header">
-        <span class="logo"><a href="#"><img width="70%"
-                    src="https://www.eraktkosh.in/BLDAHIMS/hisglobal/bbpublic/images/Rakt5.png" alt="eRaktkosh"
-                    title="eRaktkosh"></a></span>
+        <span class="logo"><a href="#"><img width="27%" height="27%"
+                    src="static\lovely-blood-drop.jpg" alt="eRaktkosh" title="eRaktkosh"></a></span>
         <span class="navbar">
             {% if loggedin==False %}
             <button id="show-register">Register</button>
@@ -33,8 +32,8 @@
     {% if loggedin==True %}
     <form action="/home" method="post">
         <div class="selection">
-            <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name"
-                pattern="[A-Za-z0-9_ ,]{1,256}" required>
+            <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name or Loacation or Keyword"
+                pattern="[A-Za-z0-9_ ,]{1,256}" required style="width:25%;">
             <select name="bloodGroup" id="BloodGroup" required>
                 <option value="" hidden selected disabled>Blood Group</option>
                 <option value="All">Show All</option>
@@ -48,7 +47,7 @@
                 <option value="O-Ve">O-Ve</option>
             </select>
             <input type="date" id="DateTime" name="DateTime">
-            <button class="btn btn-large">Submit</button>
+            <button class="btn btn-large">Search</button>
         </div>
     </form>
     <script>$(document).ready(function() {
@@ -164,7 +163,7 @@
     <script src="../static/script.js" defer></script>
     {% endif %}
     <center>
-        <table class="table table-responsive table-bordered">
+        <table class="table table-responsive table-bordered" style="border-radius: 5%;">
             <tbody>
                 <tr>
                     <th colspan="3" style="color:white;background-color:red;">Compatible Blood Type Donors</th>
