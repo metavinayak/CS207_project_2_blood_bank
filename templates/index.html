@@ -32,7 +32,7 @@
     {% if loggedin==True %}
     <form action="/home" method="post">
         <div class="selection">
-            <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name or Loacation or Keyword"
+            <input type="text" id="HospitalName" name="HospitalName" placeholder="Hospital Name or Location"
                 pattern="[A-Za-z0-9_ ,]{1,256}" required style="width:25%;">
             <select name="bloodGroup" id="BloodGroup" required>
                 <option value="" hidden selected disabled>Blood Group</option>
@@ -162,6 +162,7 @@
     </form>
     <script src="../static/script.js" defer></script>
     {% endif %}
+    <br><br>
     <center>
         <table class="table table-responsive table-bordered" style="border-radius: 5%;">
             <tbody>
@@ -258,7 +259,7 @@
         <!-- Footer Elements -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright: Group 007</a>
+        <div class="footer-copyright text-center py-3">© 2021 Copyright: Group 007</a>
         </div>
         <!-- Copyright -->
 
