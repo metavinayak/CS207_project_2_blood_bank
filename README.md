@@ -11,13 +11,18 @@
 
 Credits for Login feature: https://github.com/Faouzizi/Create_LoginPage.git
 
-## Setup environment
-1. Fork and Clone the repository
+## Installation :
+
+Fork and Clone the repository
    ```bash
    git clone <source_url>
    ```
-   Now cd to the project folder
-2. Make a virtual environment
+Now cd to the project folder
+
+## Method 1 : Virtual Environment Install
+
+### Setup environment
+1. Make a virtual environment
    ```
    virtualenv <directory_name>
     ```
@@ -25,7 +30,7 @@ Credits for Login feature: https://github.com/Faouzizi/Create_LoginPage.git
     ```
     pip install virtualenv
     ```
-3. Activate environment
+2. Activate environment
     ```
     <directory_name>\Scripts\activate
     ```
@@ -33,17 +38,27 @@ Credits for Login feature: https://github.com/Faouzizi/Create_LoginPage.git
     ```bash
     source <directory_name>/bin/activate
     ```
-4. Install requirements
+3. Install requirements
     ```bash
     pip install -r requirements.txt
     ```
-5. Run Server
+4. Run Server
     ```bash
     python main.py
     ```
-6. Deactivate environment when done
+5. Deactivate environment when done
     ```
     deactivate
     ```
 Note: Replace <directory_name> with any name
 
+## Method 2 : Global Install
+
+1. Install requirements
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. Run Server
+    ```bash
+    python main.py
+    ```
