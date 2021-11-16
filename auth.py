@@ -11,15 +11,15 @@ auth = Blueprint('auth', __name__) # create a Blueprint object that we name 'aut
 def login(): # define login page fucntion
     
     email = request.form.get('email')
+    email=email.lower() # convert email to lower case to avoid duplicates
     password = request.form.get('password')
     remember = True if request.form.get('remember') else False
     user = User.query.filter_by(email=email).first()
     # check if the user actually exists
-    # take the user-supplied password, hash it, and compare it to the hashed password in the database
     if user==None:
         flash('Please sign up before!', category='warning')
         return redirect(url_for('auth.index'))
-        
+    # take the user-supplied password, hash it, and compare it to the hashed password in the database        
     elif not check_password_hash(user.password, password):
         flash('Please check your login details and try again.',category='warning')
         # return redirect(url_for('auth.login')) 
@@ -31,6 +31,7 @@ def login(): # define login page fucntion
 def signup(): # define the sign up function
     
     email = request.form.get('email')
+    email=email.lower() # convert email to lower case to avoid duplicates
     name = request.form.get('name')
     password = request.form.get('password')
     user = User.query.filter_by(email=email).first() # if this returns a user, then the email already exists in database
