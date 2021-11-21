@@ -9,56 +9,18 @@
 6. [Shruti Jain]()
 7. [Harsh Kumar]()
 
-Credits for Login feature: https://github.com/Faouzizi/Create_LoginPage.git
+## Docker Installation :
 
-## Installation :
+```
+sudo docker run -p 5000:5000 --name blood_bank metavinayak/blood_bank:latest
+```
 
-Fork and Clone the repository
-   ```bash
-   git clone <source_url>
-   ```
-Now cd to the project folder
+Use **Ctrl+C** to exit.
 
-## Method 1 : Virtual Environment Install
+Finally use
 
-### Setup environment
-1. Make a virtual environment
-   ```
-   virtualenv <directory_name>
-    ```
-    You may need to install virtualenv first by
-    ```
-    pip install virtualenv
-    ```
-2. Activate environment
-    ```
-    <directory_name>\Scripts\activate
-    ```
-    for linux
-    ```bash
-    source <directory_name>/bin/activate
-    ```
-3. Install requirements
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Run Server
-    ```bash
-    python main.py
-    ```
-5. Deactivate environment when done
-    ```
-    deactivate
-    ```
-Note: Replace <directory_name> with any name
+```
+sudo docker stop blood_bank
 
-## Method 2 : Global Install
-
-1. Install requirements
-    ```bash
-    pip install -r requirements.txt
-    ```
-2. Run Server
-    ```bash
-    python main.py
-    ```
+sudo docker rm blood_bank
+```
