@@ -31,6 +31,5 @@ def home():
 
 app = create_app() # we initialize our flask app using the __init__.py function
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
     db.create_all(app=create_app()) # create the SQLite database
-    app.run(host="0.0.0.0") 
+    app.run(debug=True,host="0.0.0.0",port = int(os.environ.get('PORT', 5000)))
