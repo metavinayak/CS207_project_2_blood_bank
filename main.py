@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, flash,redirect,url_for,request
 from flask_login import login_required, current_user
 from __init__ import create_app, db
 import sqlite3
-
+import os
 main = Blueprint('main', __name__)
 
 @main.route('/home',methods = ["GET","POST"]) # home page that return 'home'
@@ -31,5 +31,6 @@ def home():
 
 app = create_app() # we initialize our flask app using the __init__.py function
 if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
     db.create_all(app=create_app()) # create the SQLite database
     app.run(host="0.0.0.0") 
